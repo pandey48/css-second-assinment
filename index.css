@@ -1,0 +1,172 @@
+body{
+    background-image: url(./pexels-ozgomz-845405.jpg);
+    border: 10px solid greenyellow;
+    margin: 0%;
+    padding: 0%;
+
+}
+header{
+    display: flex;
+   justify-content: space-between;
+   margin: 25px 25px;
+}
+.heading1{
+    background-color: black;
+    color: white;
+   font-style: italic;
+   font-size: large;
+   font-weight: bolder;
+   height: 100px;
+   width: 200px;
+   border: solid 5px green;
+  text-align: center;
+  border-radius: 50%;
+  padding: 10px;
+   }
+   .heading2{
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+   text-align: center;
+  padding: 30px 0px 0px 0px;
+   height: fit-content;
+   font-size: xx-large;
+   width: 500px;
+  justify-content: space-evenly ;
+  border: 3px solid green;
+  border-radius: 10px;
+  
+
+   }
+   .heading3{
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    padding: 10px;
+    border: 3px solid rgb(20, 163, 15);
+    border-radius: 30px;
+   }
+   a{
+    color: white;
+    justify-content: space-evenly;
+   
+   text-decoration: none;
+   margin: 10px;
+   
+   }
+   a:hover{
+    color: brown;
+    cursor: pointer;
+   }
+   .menu{ 
+    justify-content: center;
+   }
+.main{
+    display: inline-flex;
+    flex-wrap: wrap;
+
+}
+.offer{
+    background-color: green ;
+    height: 430px;
+    width: 430px;
+    border-radius: 50%;
+    border: 7px solid gray;
+    margin-top: 200px;
+    }
+    
+    .offer1{
+        color: black;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: x-large;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 100px;
+  margin-left: 110px;
+    }
+    .offer2{
+        color: black;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: x-large;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 30px;
+  margin-left: 30px;
+
+
+    }
+    .offer3{
+        color: black;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: x-large;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 40px;
+  margin-left: 100px;
+    }
+    .form{
+       border:dashed red  7px ;
+       height: 770px;
+       width: 500px;
+       display: flex;
+       justify-content: center;
+       margin-left: 100px;
+
+
+    }
+    .reg-form{
+        color: red;
+        font-weight: bold;
+        font-size: Xx-large;
+        
+    }
+    .for-details{color: red;
+    font-weight: bold;
+font-size: x-large;}
+
+.details{
+    margin-bottom: 20px;
+}
+button{
+    background-color: aqua;
+    color: rgb(8, 8, 8);
+}
+button:hover{
+    color: rgb(163, 165, 42);
+    pointer-events: stroke;
+    cursor: progress;
+}
+.menu{
+    font-weight: bold;
+    font-style: italic;
+    font-size: xx-large;
+    text-transform: uppercase;
+    height: 100px;
+    width: 500px;
+    border: 7px solid red;
+    border-radius: 35px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 490px;
+    margin-top: 30px;
+}
+.south{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:  1fr 1fr;
+    overflow: hidden;
+}
+.south-1{
+    background-color: aqua;
+    border: solid green 2px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+
+}
